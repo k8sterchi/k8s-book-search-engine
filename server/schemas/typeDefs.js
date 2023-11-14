@@ -46,15 +46,6 @@ const typeDefs = `
     removeBook(bookId: String!): User
     # Add other mutations as needed
   }
-
-  input BookInput {
-    authors: [String]
-    description: String!
-    bookId: String!
-    image: String
-    link: String
-    title: String!
-  }
 `;
 
 module.exports = typeDefs;
